@@ -1,4 +1,3 @@
-import machineImg from '@/resource/machine.png'
 import tableImg from '@/resource/table.png'
 import heartIcon from '@/resource/Vector.png'
 import icon1 from '@/resource/icon1.png'
