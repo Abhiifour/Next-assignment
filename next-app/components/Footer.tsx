@@ -8,23 +8,23 @@ import linkedinLogo from '@/resource/linkedin-in.png'
 
 // Example static data 
 const data = [{
-    title :'INFOS PRATIQUES',
+    title : 'INFOS PRATIQUES',
     link1 : 'À propos',
     link2 : 'Livraisons & Reprises',
-    link3 : 'Mode d’emploi',
+    link3 : 'Mode demploi',
     link4 : 'F.A.Q'
 },
 {
-    title :'LÉGAL',
+    title : 'LÉGAL',
     link1 : 'Mentions légales',
     link2 : 'CGU',
     link3 : 'CGV',
-    link4 : 'Politique de confidentialité'
+    link4 : 'Politique de confidentia'
 },
 {
-    title :'MON COMPTE',
+    title : 'MON COMPTE',
     link1 : 'Accéder à mon compte',
-    link2 : 'Ma liste d’envie',
+    link2 : 'Ma liste denvie',
     link3 : 'Créer un compte',
     link4 : 'Mot de passe oublié'
 }]
@@ -59,8 +59,8 @@ export function Footer(){
              {/* section 1 */}
              {
                 data.map((item)=>(
-                    <div className="flex flex-col gap-2 text-blackText font-geist sm:gap-1" key={item.title}>
-                    <div className="text-[18px] leading-[22px] font-semibold sm:text-[16px] sm:leading-[18px]">{item.title}</div>
+                    <div className="flex flex-col gap-2 text-blackText font-geist sm:gap-1 sm:items-start sm:justify-start" key={item.title}>
+                    <div className="text-[18px] leading-[22px] font-semibold sm:text-[16px] sm:leading-[16px]">{item.title}</div>
                     <div className="text-[14px] leading-[18px] ">{item.link1}</div>
                     <div className="text-[14px] leading-[18px]">{item.link2}</div>
                     <div className="text-[14px] leading-[18px]">{item.link3}</div>
