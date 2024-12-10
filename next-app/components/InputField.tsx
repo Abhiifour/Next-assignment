@@ -9,7 +9,7 @@ import rightArrow from '@/resource/arrow-right.png'
 export function InputField(){
     return (
         <div>
-             <div className="input-box flex items-center font-geist sm:w-full rounded-md">
+             <div className="input-box flex items-center font-geist rounded-md sm:max-w-full">
                 <input type="text" placeholder="Rechercher un produit" className="w-[700px] h-[50px] border-none outline-none bg-bggrey pl-4 text-searchText text-[14px] leading-[21px] "></input>
                 <button type="submit" className="bg-bggrey p-0 border-none outline-none h-[50px] w-[50px] ">
                     <Image
