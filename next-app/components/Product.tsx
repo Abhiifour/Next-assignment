@@ -71,7 +71,7 @@ export function Product (){
                     src={heartIcon}
                     alt='heart-icon'
                     className='w-[25px] h-[25px] sm:w-[15px] sm:h-[15px]'
-                    priority
+                   
                     />
                    </div>
                    <div className='price text-[24px] leading-[30px] flex items-center gap-1 font-geist sm:text-[16px]'>
