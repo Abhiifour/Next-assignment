@@ -1,5 +1,4 @@
-"use client"
-
+import machineImg from '@/resource/machine.png'
 import tableImg from '@/resource/table.png'
 import heartIcon from '@/resource/Vector.png'
 import icon1 from '@/resource/icon1.png'
@@ -57,7 +56,7 @@ export function Product (){
                     <div className='product-img flex items-center h-full '>
                         <div>
                         <Image
-                         src='@/resource/machine.png'
+                         src={machineImg}
                          alt="table-img"
                          className=" w-[550px] h-[550px] bg-productbg sm:w-[300px] sm:h-[300px]"
                          priority
