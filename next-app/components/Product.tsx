@@ -66,7 +66,7 @@ export function Product (){
                 <div className='product-title w-[750px] p-2 flex flex-col justify-between sm:w-full'>
                  <div>
                  <div className='flex justify-between items-center sm:w-full'>
-                    <p className='text-[30px] leading-[37px] font-normal font-playfair sm:text-[20px] sm:leading-[20px]'>Cheese – appareil à raclette 1/2 roue</p>
+                    <p className='text-[30px] leading-[37px] font-normal font-playfair sm:text-[20px] sm:leading-[20px]'>Cheese - appareil à raclette 1/2 roue</p>
                     <Image
                     src={heartIcon}
                     alt='heart-icon'
@@ -132,7 +132,7 @@ export function Product (){
                    Description produit
                    </div>
                    <div className='text-[14px] leading-[18px] mt-5 p-2 w-[700px] text-primary font-geist sm:w-[100%]'>
-                   Festi vous propose à la location un/une "Jewel – grand couteau/10pc" pour votre évenement et ce dès 0,35 € / pièce (HTVA). 
+                   Festi vous propose à la location un/une "Jewel - grand couteau/10pc" pour votre évenement et ce dès 0,35 € / pièce (HTVA). 
                    Que ce soit pour votre mariage, une fête d'anniversaire ou du personnel, ce produit a fait l'objet d'une sélection rigoureuse par notre équipe. 
                    Il est en location chez nous sous la référence "VAJGC". Nous sommes à votre disposition pour que les événements de nos clients, même en last-minute, soient toujours une réussite.
                     Vous pourrez trouver tout une série d'autre produit à louer de ce type dans la catégorie "Art de la Table".

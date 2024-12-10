@@ -3,7 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Navbar } from "@/components/Navbar";
 import { NewsLetter } from "@/components/NewsLetter";
 import { Product } from "@/components/Product";
-import { ProductCard } from "@/components/ProductCard";
+
 import ProductCollection from "@/components/ProductCollection";
 
 export default function Home() {
