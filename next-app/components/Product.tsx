@@ -53,12 +53,14 @@ export function Product (){
                         </div>
 
                     </div>
-                    <div className='product-img flex items-center h-full w'>
+                    <div className='product-img flex items-center h-full '>
                         <div>
                         <Image
-                         src={machineImg}
+                         src='@/resource/machine.png'
                          alt="table-img"
-                         className=" w-[550px] h-[550px] bg-productbg sm:w-[300px] sm:h-[300px]"/>
+                         className=" w-[550px] h-[550px] bg-productbg sm:w-[300px] sm:h-[300px]"
+                         priority
+                         />
                         </div>
                     </div>
                 </div>
@@ -71,7 +73,7 @@ export function Product (){
                     src={heartIcon}
                     alt='heart-icon'
                     className='w-[25px] h-[25px] sm:w-[15px] sm:h-[15px]'
-                   
+                    
                     />
                    </div>
                    <div className='price text-[24px] leading-[30px] flex items-center gap-1 font-geist sm:text-[16px]'>
